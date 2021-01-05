@@ -117,7 +117,6 @@ Va créer une architecture web en php
 	}
 	```
 
-  * **main.js** est vide
   * **bdd.php**
 
 	```php
@@ -125,7 +124,7 @@ Va créer une architecture web en php
 	function bdd()
 	{
 		try {
-			$bdd = new PDO(\"mysql:dbname= BDD; host= HOST\", \"USER\", \"PASS\");
+			$bdd = new PDO("mysql:dbname= BDD; host= HOST", "USER", "PASS");
 			$bdd->exec('SET NAMES utf8');
 		} catch (PDOException $e) {
 			echo 'Connexion échouée: ' . $e->getMessage();
@@ -134,9 +133,11 @@ Va créer une architecture web en php
 	}
 	```
 
+  * **main.js** est vide
+
   * **Conf.php** est vide
 
-  * ***membres.php** est vide
+  * **membres.php** est vide
 
   * **Varconf.php** est vide
 
