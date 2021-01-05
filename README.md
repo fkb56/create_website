@@ -11,5 +11,5 @@ Va créer une architecture web en php
 * Création du dossier assets
     > (Avec les fichiers ci-dessous à l'intérieur)
         * Création des dossiers assets, framework
-* Création du dossier framework et téléchargement des framework
-        * 
+* Création du dossier framework et téléchargement des frameworks
+        * Bootstrap
