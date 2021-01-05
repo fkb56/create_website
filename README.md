@@ -84,7 +84,7 @@ Va créer une architecture web en php
   * **humans.txt**
     ------------------------------Documentation utilisateur----------------------------------
   * **main.css**
-    * {
+    \* {
         margin: 0;
         padding: 0;
     }
