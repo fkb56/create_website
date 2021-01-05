@@ -9,7 +9,7 @@ Il y a 2 script l'un sert a créer une architecture [normal](#create_website-1) 
 Va créer une architecture web en php
 
 * Création du dossier assets
-<small>(Avec les fichiers ci-dessous à l'intérieur)</small>
+(Avec les fichiers ci-dessous à l'intérieur)
   * Création du dossier **css**
   * Création du dossier **js**
   * Création du dossier **php**
