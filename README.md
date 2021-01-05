@@ -117,8 +117,8 @@ Va créer une architecture web en php
 	}
 	```
 
-	* **main.js** est vide
-	* **bdd.php**
+  * **main.js** est vide
+  * **bdd.php**
 
 	```php
 	<?php
@@ -134,11 +134,11 @@ Va créer une architecture web en php
 	}
 	```
 
-	* **Conf.php** est vide
+  * **Conf.php** est vide
 
-	* ***membres.php** est vide
+  * ***membres.php** est vide
 
-	* **Varconf.php** est vide
+  * **Varconf.php** est vide
 
 
 **********************************************************************************************
