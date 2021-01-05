@@ -2,14 +2,14 @@
 
 ## Création d'un script pour réaliser une achitecture pour un site web
 
-Il y a 2 script l'un sert a créer une architecture [normal](https://github.com/fkb56/create_website/tree/test#create_website-1) et le deuxième sert a créer une architecture [MVC](https://github.com/fkb56/create_website/tree/test#create_website_mvc)
+Il y a 2 script l'un sert a créer une architecture [normal](#create_website-1) et le deuxième sert a créer une architecture [MVC](#create_website_mvc)
 
 ### create_website
 
 Va créer une architecture web en php
 
 * Création du dossier assets
-    <small>(Avec les fichiers ci-dessous à l'intérieur)</small>
+<small>(Avec les fichiers ci-dessous à l'intérieur)</small>
   * Création du dossier **css**
   * Création du dossier **js**
   * Création du dossier **php**
