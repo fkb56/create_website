@@ -115,10 +115,12 @@ Va créer une architecture web en php
 		bottom: 0 !important;
 		width: 100%;
 	}
+	```
 
 	* **main.js** est vide
 	* **bdd.php**
 
+	```php
 	<?php
 	function bdd()
 	{
