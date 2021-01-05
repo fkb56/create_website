@@ -9,5 +9,9 @@ Il y a 2 script l'un sert a créer une architecture normal et le deuxième sert 
 Va créer une architecture web en php
 
 <ul>
-    <li>Création des dossiers assets, framework</li>
+    <li>Création du dossier assets</li>
+    <small>(Avec les fichiers ci-dessous à l'intérieur)</small>
+    <ul>
+        <li>Création des dossiers assets, framework</li>
+    </ul>
 </ul>
