@@ -1,4 +1,4 @@
-<h1 style="text-align: center">create_website</h1>
+# create_website
 
 ## Création d'un script pour réaliser une achitecture pour un site web
 
