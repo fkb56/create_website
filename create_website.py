@@ -105,7 +105,31 @@ template_Membre = """<?php"""
 
 template_Js = """"""
 
-template_Css = """"""
+template_Css = """* {
+    margin: 0;
+    padding: 0;
+}
+
+nav>div>a:hover, nav>div>div>ul>li>a:hover{
+    color:rgb(248, 117, 9) !important;
+    font-weight:bold;
+}
+
+.btn-orange{
+    color:rgb(248, 117, 9) !important;
+    border-color: rgb(248, 117, 9) !important;
+}
+
+.btn-orange:hover{
+    background-color:rgb(248, 117, 9) !important;
+        color: black !important;
+}
+
+footer {
+    position: absolute !important;
+	bottom: 0 !important;
+	width: 100%;
+}"""
 
 template_VarConf = """<?php"""
 

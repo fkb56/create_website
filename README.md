@@ -22,8 +22,10 @@ Va créer une architecture web en php
   * Téléchargement du fichier **Fontawesome**
   * Téléchargement du fichier **JQuery**
 
+* Création du dossier images 
+
 * Des templates sont directement intégré au différent fichier créer
-  * Pour l'**index.php**
+  * **index.php**
 
     <?php
     require_once "assets/php/bdd.php";
@@ -79,7 +81,50 @@ Va créer une architecture web en php
             <script src="assets/js/main.js"></script>
         </body>
     </html>
+  * **humans.txt**
+    ------------------------------Documentation utilisateur----------------------------------
+  * **main.css**
+    * {
+        margin: 0;
+        padding: 0;
+    }
 
+    nav>div>a:hover, nav>div>div>ul>li>a:hover{
+        color:rgb(248, 117, 9) !important;
+        font-weight:bold;
+    }
+
+    .btn-orange{
+        color:rgb(248, 117, 9) !important;
+        border-color: rgb(248, 117, 9) !important;
+    }
+
+    .btn-orange:hover{
+        background-color:rgb(248, 117, 9) !important;
+            color: black !important;
+    }
+
+    footer {
+        position: absolute !important;
+        bottom: 0 !important;
+        width: 100%;
+    }
+    * **main.js** est vide
+    * **bdd.php**
+    <?php
+    function bdd()
+    {
+        try {
+            $bdd = new PDO(\"mysql:dbname= BDD; host= HOST\", \"USER\", \"PASS\");
+            $bdd->exec('SET NAMES utf8');
+        } catch (PDOException $e) {
+            echo 'Connexion échouée: ' . $e->getMessage();
+        }
+        return $bdd;
+    }
+    * **Conf.php** est vide
+    * ***membres.php** est vide
+    * **Varconf.php** est vide
 
 
 **********************************************************************************************
