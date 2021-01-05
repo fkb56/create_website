@@ -27,6 +27,7 @@ Va créer une architecture web en php
 * Des templates sont directement intégré au différent fichier créer
   * **index.php**
 
+    ```php
     <?php
     require_once "assets/php/bdd.php";
 
@@ -80,11 +81,16 @@ Va créer une architecture web en php
             <script src="framework/Bootstrap.bundle.min.js"></script>
             <script src="assets/js/main.js"></script>
         </body>
-    </html>
+    </html>```
+
   * **humans.txt**
+    ```
     ------------------------------Documentation utilisateur----------------------------------
+    ```
+
   * **main.css**
-    \* {
+    ```css
+    * {
         margin: 0;
         padding: 0;
     }
@@ -122,8 +128,12 @@ Va créer une architecture web en php
         }
         return $bdd;
     }
+    ```
+
     * **Conf.php** est vide
+
     * ***membres.php** est vide
+
     * **Varconf.php** est vide
 
 
