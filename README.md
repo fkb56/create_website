@@ -2,7 +2,7 @@
 
 ### Pré-requis
 
-Il y a juste a intaller [python3](#https://www.python.org/downloads/) pour pouvoir faire fonctionner le script.
+Il y a juste a intaller [python 3](#https://www.python.org/downloads/) pour pouvoir faire fonctionner le script.
 
 ## Création d'un script pour réaliser une achitecture pour un site web
 
